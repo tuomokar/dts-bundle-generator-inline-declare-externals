@@ -1,0 +1,21 @@
+{
+  "name": "dts-bundle-generator-inline-declare-externals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-types": "npx dts-bundle-generator ./ReactTable.tsx --inline-declare-externals=true",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "dts-bundle-generator": "^9.3.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.13.2",
+    "react": "^18.2.0"
+  }
+}

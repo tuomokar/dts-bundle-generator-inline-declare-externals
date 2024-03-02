@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "importHelpers": true,
+      "noImplicitAny": true,
+      "allowJs": true,
+      "jsx": "react",
+      "module": "es6",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "strict": true,
+      "target": "esnext",
+      "skipLibCheck": true,
+    },
+    "include": [
+      "ReactTable.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+    ]
+  }
